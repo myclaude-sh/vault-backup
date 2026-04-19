@@ -1,0 +1,14 @@
+name: vault-backup
+version: 1.0.0
+type: skill
+description: "Universal secure backup — encrypt (AES-256), compress (zstd), deduplicate, verify integrity. Backup project files, databases, .claude/ setup, configs. Incremental, secrets-aware, multi-destination."
+price: 0
+license: MIT
+entry: SKILL.md
+tags:
+  - backup
+  - security
+  - encryption
+  - compression
+  - devops
+  - disaster-recovery

@@ -1,36 +1,20 @@
-# Vault Backup
-
-[![Available on MyClaude](https://myclaude.sh/badge/available.svg)](https://myclaude.sh/p/vault-backup)
-
-Universal secure backup — encrypt (AES-256), compress (zstd), deduplicate, verify integrity. Backup project files, databases, .claude/ setup, configs. Incremental, secrets-aware, multi-destination.
-
-| | |
-|---|---|
-| **Category** | skills |
-| **Version** | 1.0.0 |
-| **Author** | [@cognittusai](https://myclaude.sh/u/cognittusai) |
-| **License** | MIT |
-| **Price** | Free |
-
-## Installation
-
-### Via MyClaude CLI
-```bash
-myclaude install vault-backup
-```
-
-### Via Vercel Skills
-```bash
-npx skills add myclaude-sh/vault-backup
-```
-
-### Via Claude Code Plugin System
-```
-/plugin marketplace add myclaude-sh/registry
-/plugin install vault-backup@myclaude-sh
-```
-
-## About
+---
+name: vault-backup
+display_name: Vault Backup
+description: "Universal secure backup — encrypt (AES-256), compress (zstd), deduplicate, verify integrity. Backup project files, databases, .claude/ setup, configs. Incremental, secrets-aware, multi-destination."
+version: 1.0.0
+author: cognittusai
+license: MIT
+tags:
+  - "backup"
+  - "security"
+  - "encryption"
+  - "compression"
+  - "devops"
+  - "disaster-recovery"
+marketplace_url: "https://myclaude.sh/p/vault-backup"
+user-invocable: true
+---
 
 # Vault Backup
 
@@ -149,13 +133,3 @@ Proprietary — © 2026 CognittusAI
 
 <sub>Built with MyClaude Studio Engine</sub>
 
-
-## Tags
-
-`backup` `security` `encryption` `compression` `devops` `disaster-recovery`
-
----
-
-*Published on [MyClaude Marketplace](https://myclaude.sh/p/vault-backup) — the curated marketplace for the Claude Code ecosystem.*
-
-*This repository is automatically mirrored from MyClaude. To publish updates, use `myclaude publish`.*
